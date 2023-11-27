@@ -1,4 +1,5 @@
 import { useContext } from "react";
+
 import { CartContext } from "../store/context";
 
 export default function Product({ id, image, title, price, description }) {
